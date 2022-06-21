@@ -1,0 +1,6 @@
+[submodule "deps/Android-sqlite-connector"]
+	path = deps/Android-sqlite-connector
+	url = https://github.com/marblemedia/Android-sqlite-connector
+[submodule "deps/Android-sqlite-native-driver"]
+	path = deps/Android-sqlite-native-driver
+	url = https://github.com/marblemedia/Android-sqlite-native-driver

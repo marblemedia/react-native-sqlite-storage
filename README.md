@@ -31,6 +31,10 @@ To enable promises, run
 SQLite.enablePromise(true);
 ```
 
+## Building Android deps
+
+In general, Android native deps shouldn't need to be rebuilt, but if necessary they can be by running `yarn build-deps`. You'll need Android SDK + NDK installed, and the `ANDROID_NDK_HOME` environment variable set (for example `/Library/Android/sdk/ndk/21.4.7075529`). This should only be necessary if we want to change which features we're including, or update for compatibility with future versions of Android.
+
 ## iOS
 #### Standard Method
 ** React Native 0.60 and above **
